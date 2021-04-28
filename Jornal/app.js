@@ -32,7 +32,7 @@ for (var i = 0; i < codigoProduto02.length; i++) {
   html += "<img alt='' src='https://importecatacado.com.br/img/site/uploads/produtoimagens/IMG_" + imgProduto02[i] + ".jpg' width='150' />"
   html += "<figcaption>" + descricaoProduto02[i] + "<br>Código:" + codigoProduto02[i] + "</figcaption>"
   html += "</figure></a></div>"
-  var bloco01 = document.getElementById("bloco02")
+  var bloco02 = document.getElementById("bloco02")
   bloco02.innerHTML = html;
 }
 
@@ -44,6 +44,6 @@ for (var i = 0; i < codigoProduto.length; i++) {
   html += "<img alt='' src='https://importecatacado.com.br/img/site/uploads/produtoimagens/IMG_" + imgProduto[i] + ".jpg' width='150' />"
   html += "<figcaption>" + descricaoProduto[i] + "<br>Código:" + codigoProduto[i] + "</figcaption>"
   html += "</figure></a></div>"
-  var bloco01 = document.getElementById("bloco03")
+  var bloco03 = document.getElementById("bloco03")
   bloco03.innerHTML = html;
 }
