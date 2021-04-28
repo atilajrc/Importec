@@ -1,0 +1,22 @@
+.box {
+    width: 150px;
+    display: inline-table;
+}
+
+#fig{
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.rodape{
+    text-align: right;
+    color: white;
+    padding: 0px 30px 0px 0px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
